@@ -1,0 +1,103 @@
+/* Reset and Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Structural Elements */
+body {
+  background: #eee;
+  padding: 0 16px;
+}
+header {
+  padding: 16px 32px;
+  margin: auto -16px;
+  background-color: #f5ba13;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  text-align: center;
+  color: #ccc;
+}
+
+/* Header Styles */
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+/* Note Component */
+.note {
+  padding: 10px;
+  margin: 16px;
+  width: 240px;
+  background: #fff;
+  box-shadow: 0 2px 5px #ccc;
+  border-radius: 7px;
+  float: left;
+}
+.note h1,
+.note p {
+  margin-bottom: 6px;
+  font-size: 1.1em;
+}
+.note p {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin-bottom: 10px;
+}
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: #f5ba13;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Form Styles */
+form {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px;
+  padding: 15px;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form input,
+form textarea {
+  width: 100%;
+  padding: 4px;
+  border: none;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
